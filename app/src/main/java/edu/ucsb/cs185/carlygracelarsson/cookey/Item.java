@@ -11,14 +11,13 @@ import java.util.ArrayList;
  */
 public class Item {
     private String title;
-    private Bitmap image;
     private int resourceId;
     private Integer[] photos;
     private int difficulty;
     private String timeToComplete;
-    private String[] recipeDirections;
+    private int recipeDirectionsId;
     private String recipeDescription;
-    private String[] recipeIngredients;
+    private int recipeIngredientsId;
 
     public Item(String ti, int id, Integer[] p, int diff, String t){
         title = ti;
@@ -29,29 +28,16 @@ public class Item {
     }
 
 
-    public Item(Bitmap i, String ti, int id, Integer[] p, int diff, String t, String rde, String[] ri){
+    public Item(String ti, int id, Integer[] p, int diff, String t, String description, int directionsId, int ingredientsId){
         title = ti;
-        image = i;
         resourceId = id;
         photos = p;
         difficulty = diff;
         timeToComplete = t;
-        recipeDescription = rde;
-        recipeIngredients = ri;
+        recipeDescription = description;
+        recipeDirectionsId = directionsId;
+        recipeIngredientsId = ingredientsId;
     }
-
-    public Item(Bitmap i, String ti, int id, Integer[] p, int diff, String t, String[] rdi, String[] ri)
-    {
-        title = ti;
-        image = i;
-        resourceId = id;
-        photos = p;
-        difficulty = diff;
-        timeToComplete = t;
-        recipeDirections = rdi;
-        recipeIngredients = ri;
-    }
-
 
     public String getTitle(){
         return title;
@@ -66,4 +52,7 @@ public class Item {
         return difficulty;
     }
     public String getTimeToComplete(){return timeToComplete; }
+    public int getRecipeDirectionsId(){return recipeDirectionsId;}
+    public int getRecipeIngredientsId(){return recipeIngredientsId;}
+    public String getRecipeDescription(){return recipeDescription;}
 }

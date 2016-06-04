@@ -25,20 +25,29 @@ public class ScrollingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nates);
+
         // This code will replace my string array assignment, until then i get it from the "cookies" array in array.xml
-        //String[] stepList = getIntent().getExtra("recipeDirections");
-        String[] stepList = getResources().getStringArray(R.array.DChocolateChipCookies);
+        Intent intent = getIntent();
+
+        final Bundle extras = intent.getExtras();
+        String recipeTitle = extras.getString("recipeTitle");
+        setTitle(recipeTitle);
+        String[] stepList = this.getResources().getStringArray(extras.getInt("recipeDirectionsId"));
+        //String[] stepList = this.getResources().getStringArray(R.array.DChickenPie);
+
+        //String[] stepList = getResources().getStringArray(R.array.DChocolateChipCookies);
         //This code will replace my number of instructions to display. It is the number of steps of a recipe starting at 1
-        //Integer count = stepList.size(); //
-        Integer count = 10;
+        Integer count = stepList.length; //
+        //Integer count = 10;
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "TODO this should pull up ingredients fragment", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+
+                IngredientsFragment ingredientsFragment = IngredientsFragment.newInstance(extras.getString("recipeTitle") + " Ingredients", extras.getInt("recipeIngredientsId"));
+                ingredientsFragment.show(getFragmentManager(), "Ingredients");
             }
         });
 
