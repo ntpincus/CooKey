@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--recipeDirections-->
+    <string-array name="DSpringRolls">
+        <item>Prepare the vegetables: grate the cabbage and carrots; slice the beet, radish and avocado</item>
+        <item>Making the sauce: combine all sauce ingredients in a container and stir until combined</item>
+        <item>To assemble your wraps: fill a large bowl with hot water.Insert one rice paper wrap at a time
+                for 20 seconds. Carefully, remove from water and place on a flat surface</item>
+        <item>Arrange vegetables in the center of the rice paper, and roll your wrap like a burrito</item>
+        <item>Dip generously in sauce and enjoy</item>
+    </string-array>
+    <string-array name="DChocolateChipCookies">
+        <item>Preheat oven to 375° F</item>
+        <item>Combine flour, baking soda and salt in small bowl</item>
+        <item>Beat butter, granulated sugar, brown sugar and vanilla extract in large mixer bowl until creamy</item>
+        <item>Add eggs, one at a time, beating well after each addition</item>
+        <item>Gradually beat in flour mixture</item>
+        <item>Stir in morsels and nuts</item>
+        <item>Drop by rounded tablespoon onto ungreased baking sheets</item>
+        <item>Bake for 9 to 11 minutes or until golden brown</item>
+        <item>Cool on baking sheets for 2 minutes</item>
+        <item>Eat and enjoy</item>
+    </string-array>
+    <string-array name="DPotatoWedges">
+        <item>Preheat oven to 375° F</item>
+        <item>Lightly grease a large baking sheet and set aside.</item>
+        <item>Place potato wedges in a large bowl</item>
+        <item>Drizzle with olive oil and toss to coat</item>
+        <item>In a small bowl whisk together salt, garlic powder, and Italian seasoning</item>
+        <item>Sprinkle potato wedges with the shredded cheese, tossing to coat, then sprinkle with the seasoning mixture</item>
+        <item>Place potato wedges on prepared baking sheet in a single layer with skin-sides-down</item>
+        <item>Bake for 25–35 minutes until potatoes are fork-tender and golden</item>
+        <item>Sprinkle with freshly chopped parsley and dressing for dipping</item>
+        <item>Eat and enjoy</item>
+    </string-array>
+    <string-array name="DCarrotCake">
+        <item>Preheat oven to 350° F</item>
+        <item>Butter three 9-inch round cake pans. Line bottoms with parchment paper, and butter parchment. Dust with flour, tapping out excess</item>
+        <item>Whisk together flour, baking powder, baking soda, cinnamon, salt, ginger, and nutmeg</item>
+        <item>Beat butter and sugars with a mixer on medium speed until pale and fluffy</item>
+        <item>Add eggs, one at a time, beating well after each addition</item>
+        <item>Beat 3 minutes</item>
+        <item>Beat until well combined, about 2 minutes</item>
+        <item>Reduce speed to low, and add flour mixture, then finely chopped pecans</item>
+        <item>Scrape batter into prepared pans, dividing evenly</item>
+        <item>Bake, rotating pans halfway through, until golden brown and a toothpick inserted into centers comes out clean, about 30 minutes</item>
+        <item>While the cake is baking, make the frosting:</item>
+        <item>Beat cream cheese and vanilla with a mixer on medium speed until creamy</item>
+        <item>Gradually add butter, beating until incorporated after each addition</item>
+        <item>Gradually add confectioners sugar, and beat until fluffy and smooth</item>
+        <item>When cake is finished baking:</item>
+        <item>Let cool in pans on a wire rack for 15 minutes. Run a knife around edges of cakes to loosen, and turn out cakes onto rack. Turn right side up, and let cool completely</item>
+        <item>Place a cake on a serving platter and spread 1 cup frosting on top</item>
+        <item>Repeat for cake two and three</item>
+        <item>Spread remaining frosting over top and sides</item>
+        <item>Gently press coarsely chopped pecans onto sides of cake</item>
+        <item>Refrigerate 1 hour before serving</item>
+    </string-array>
+    <string-array name="DTomatoTart">
+        <item>Preheat oven to 400° F</item>
+        <item>Slice off just the top of the garlic head so that a small amount of each clove shows through</item>
+        <item>Place the garlic in a small ramekin and drizzle a bit of olive oil on top, just enough to cover the exposed cloves</item>
+        <item>Sprinkle with kosher salt and cover the ramekin with foil</item>
+        <item>Place the ramekin in the oven and roast the garlic for 40 minutes</item>
+        <item>Set aside to cool</item>
+        <item>Once the garlic is cool enough to handle, squeeze the cloves into a bowl and mash with the back of a spoon to make a paste</item>
+        <item>Core the tomatoes and cut into 1/4 inch slices, reserving the ends for another use</item>
+        <item>Lay the slices out on a cutting board close together in 3 rows to stage how the tart will look</item>
+        <item>Line a sheet tray with parchment paper and set aside</item>
+        <item>Remove the puff pastry from the refrigerator and place on a lightly floured surface</item>
+        <item>Roll the dough out to approximately 10x14 inches</item>
+        <item>Place the puff pastry on the prepared sheet tray</item>
+        <item>Spread a thin layer of roasted garlic over the dough (there might not be enough to cover all of the dough, which is ok)</item>
+        <item>Sprinkle the thyme evenly over the garlic (again, it will not cover the entire tart)</item>
+        <item>Layer the tomato slices on top</item>
+        <item>If there is a lot of excess dough around the edges, use a pizza cutter, bench scraper or knife to cut it away, leaving only an inch of excess dough</item>
+        <item>Bake the tart for approximately 25 minutes, or until the edges are flaky and golden brown</item>
+        <item>Season with salt and pepper to taste</item>
+    </string-array>
+    <string-array name="DChickenPie">
+        <item>Adjust oven rack to middle position. If using leftover chicken or turkey that is already cooked, heat oven to 350° F and skip to step 3-6</item>
+        <item>If using raw poultry, preheat oven to 400° F</item>
+        <item>Pat chicken dry with paper towels and season with salt and pepper</item>
+        <item>Roast until chicken registers 160 degrees, about 35 minutes</item>
+        <item>Let cool to room temperature and shred into bite sized pieces</item>
+        <item>Reduce oven temperature to 350.</item>
+        <item>Melt butter in a saucepan over medium heat</item>
+        <item>Cook celery until softened, about 5 minutes</item>
+        <item>Add garlic and cook about 30 seconds until fragrant</item>
+        <item>Stir in flour and cook until it begins to brown, about 1 minute</item>
+        <item>Stir in milk, broth, and zest and bring to a boil</item>
+        <item>Reduce heat to low and simmer until thickened, about 5 minutes</item>
+        <item>Strain sauce into a large bowl (discard vegetables), stir in the chicken and scallions and season to taste with salt and pepper.</item>
+        <item>Let the filling cool until just warm, about 30 minutes</item>
+        <item>Press one pie crust into a 9 inch pie pan, spoon chicken mixture into pie shell and sprinkle with cheese</item>
+        <item>Top with remaining circle of dough. Trim all but 1/2 inch dough overhanging the edge ofthe pie plate</item>
+        <item>Press top and bottom of crusts together, then tuck edges underneath. Crimp dough evenly around the edge of the pie using your fingers</item>
+        <item>Cut 4, 2 inch slits in top of dough, brush with beaten egg, and bake until crust is deep golden brown, 45-55 minutes</item>
+        <item>Let cool 10 minutes and serve.</item>
+    </string-array>
+    <string-array name="DCoconutPie">
+       <item>For the Pastry:</item>
+        <item>Preheat oven to 400° F</item>
+        <item>Using a food processor or a pastry blender cut cold butter into flour and salt until mixture resembles a coarse meal. Small pieces of butter should still be visible.</item>
+        <item>Pour cold water over the mixture and work in by tossing with a fork until dough begins to form. Use your hands as little as possible and work the dough as little as possible.</item>
+        <item>Divide dough into 2 balls, flatten into 2 rounds, wrap in plastic wrap and place in the refrigerator to rest for a minimum of 20 minutes. You can freeze the second round for another time</item>
+        <item>Roll the dough into a 12 inch round and place in the bottom of a 10 inch pie plate. Trim and flute the edges as desired.</item>
+        <item>Poke a few holes in the bottom of the pastry shell, rest in the refrigerator for an additional 20 minutes</item>
+        <item>Bake for 12 – 15 minutes or until golden brown.</item>
+        <item>For the Coconut Cream Filling:</item>
+        <item>Scald the milk in the microwave or on the stove top to almost boiling. Microwave works best as there is no chance of burning the milk.</item>
+        <item>Meanwhile, in a saucepan combine the flour, sugar, salt and coconut.</item>
+        <item>Over medium low flame slowly add 1 cup of the scalded milk, whisking constantly.</item>
+        <item>As you notice the filling beginning to thicken, add another cup of the scalded milk continuing to stir constantly until it begins to thicken again.</item>
+        <item>Add the final cup of scalded milk, stirring constantly.</item>
+        <item>Continue to cook over medium low heat until mixture begins to slightly thicken.</item>
+        <item>At this point remove from heat and pour about a half cup of this mixture onto the beaten egg yolks, whisking constantly.</item>
+        <item>Pour the egg mixture immediately back into the pot, continuing to constantly stir.</item>
+        <item>Cook for an additional two or three until the filling reaches pudding consistency and remove from the flame.</item>
+        <item>The mixture should just be beginning to boil at this point.</item>
+        <item>Stir in the butter, vanilla and almond extract.</item>
+        <item>Cool for about 20 minutes before pouring into the baked pie shell/s.</item>
+        <item>Chill the pie/s completely for several hours or overnight before adding the vanilla whipped cream.</item>
+        <item>For the Vanilla Whipped Cream:</item>
+        <item>Combine the whipping cream, icing sugar and vanilla extract and beat to soft peaks.</item>
+        <item>Spread on top of the cooled coconut cream filling.</item>
+        <item>Garnish with toasted coconut and serve.</item>
+    </string-array>
+    <string-array name="DEggs">
+       <item>Preheat oven to 350˚F</item>
+        <item>Sift flour, bicarb of soda, cream of tartar and salt into a bowl.</item>
+        <item>Rub in butter until the mixture resembles breadcrumbs.</item>
+        <item>Add sugar and mix well to incorporate all together.</item>
+        <item>In a jug mix the beaten egg with the milk then add to the flour and combine to form a soft dough.</item>
+        <item>Place onto a floured worktop and knead gently to form a light dough.</item>
+        <item>Flour a rolling pin and roll out the dough to a thickness of about 3/4 inch or 2cm.</item>
+        <item>Using a 3 cm round cutter, cut out scones, then place all scone rounds on a floured baking tray.</item>
+        <item>Brush the scones with egg wash (mix the extra egg yolk with a tbsp milk).</item>
+        <item>Bake in hot oven for 10–12 minutes or until golden brown.</item>
+        <item>Fry the pancetta in a tsp of olive or canola oil and drain on paper towel, pat off any excess oil then rip into small pieces</item>
+        <item>In a non-stick frying pan, add 2 tbsp olive oil and in two batches, crack open the quail’s eggs and cook in the oil over a very low heat for about 5 – 7 minutes until whites are cooked yet yolks still bright yellow and runny.</item>
+        <item>Transfer eggs from frying pan to a plate using a angled palette knife.</item>
+        <item>Mix 2 tbsp salad cream with a dash or two (to taste) of tabasco sauce an set aside.</item>
+        <item>When scones are cooked and cooled, carefully cut off the very top of each one and place remaining bottom on a serving platter, top with a ripped piece of pancetta, a fried quail’s egg and a small dollop of pre-prepared salad cream.</item>
+        <item>Serve with a sprinkle of sea salt and freshly ground black pepper.</item>
+    </string-array>
+    <string-array name="DCheese">
+        <item>Preheat the oven to 180°C</item>
+        <item>Unroll a sheet of filo horizontally on the work surface.</item>
+        <item>Cut the filo sheet in half lengthways, and in half crossways to make 4 rectangles measuring approximately 15 x 20 cm. Repeat. Lay them all out on the work surface.</item>
+        <item>Brush the rectangles generously with butter, ensuring that about 1 tbsp is saved to brush the tops.</item>
+        <item>Sprinkle some thyme leaves along the long length of each pastry rectangle and fold it in about 2cm to encase it.</item>
+        <item>Crumble a line of goat’s cheese in a line along the opposite short side of the pastry. Drizzle the honey just inside the goat’s cheese of each pastry.</item>
+        <item>Starting at the goats cheese end, roll the pastry once over the goats cheese and carry on rolling all way to the thyme, sealing the join.</item>
+        <item>Roll the pastry over the goat’s cheese and all the way down to the thyme.</item>
+        <item>Repeat the process to make 4 cigars.</item>
+        <item>Place on a baking tray lined with baking paper and brush once more with the remaining butter.</item>
+        <item>Bake for 15-20 minutes or until golden and crisp</item>
+    </string-array>
+    <!--recipeIngredients-->
+    <string-array name="ISpringRolls">
+        <item>For the Filling:</item>
+        <item>8 Rice Paper Wraps</item>
+        <item>1 Head Purple Cabbage</item>
+        <item>5 Big Carrots</item>
+        <item>1-2 Avocados</item>
+        <item>1 Candycane Beets</item>
+        <item>1 Watermelon Radish</item>
+        <item>For the Sauce:</item>
+        <item>1/2 cup Almond Butter</item>
+        <item>6 tbsp Lime Juice</item>
+        <item>5 tbsp Tamari</item>
+        <item>1 tbsp Maple Syrup</item>
+        <item>4 shakes Sesame Oil</item>
+        <item>Water (to thin, as needed)</item>
+    </string-array>
+    <string-array name="IChocolateChipCookies">
+        <item>2 1/4 cups All-Purpose Flour</item>
+        <item>1 tsp Baking Soda</item>
+        <item>1 tsp Salt</item>
+        <item>1 cup Butter, Softened</item>
+        <item>3/4 cup Granulated Sugar</item>
+        <item>3/4 cup Packed Brown Sugar</item>
+        <item>1 tsp Vanilla Extract</item>
+        <item>2 Large Eggs</item>
+        <item>2 cups/12-oz Chocolate Morsels</item>
+        <item>1 cup Chopped Nuts</item>
+    </string-array>
+    <string-array name="IPotatoWedges">
+        <item>3-4 Large Russet Potatoes, Sliced into Wedges</item>
+        <item>4 tbsp Olive Oil</item>
+        <item>2 tsp Salt</item>
+        <item>2 tsp Garlic Powder</item>
+        <item>2 tsp Italian Seasoning</item>
+        <item>1/2 cup Shredded Parmesan Cheese</item>
+        <item>Optional:</item>
+        <item>Fresh Parsley or Cilantro</item>
+        <item>Ranch or Blue Cheese Dressing for Dipping</item>
+    </string-array>
+    <string-array name="ICarrotCake">
+        <item>Ingredients Cake:</item>
+        <item>2 1/2 cups All-Purpose Flour, plus more for pans</item>
+        <item>1 teaspoon Baking Powder</item>
+        <item>1 teaspoon Baking Soda</item>
+        <item>1 teaspoon Ground Cinnamon</item>
+        <item>3/4 teaspoon Coarse Salt</item>
+        <item>1/2 teaspoon Ground Ginger</item>
+        <item>1/4 teaspoon Ground Nutmeg</item>
+        <item>3 sticks Unsalted Butter, room temperature, plus more for pans</item>
+        <item>1 cup Packed Light-Brown Sugar</item>
+        <item>1/2 cup Granulated Sugar</item>
+        <item>3 Large Eggs</item>
+        <item>2 teaspoons Pure Vanilla Extract</item>
+        <item>1/2 cup water</item>
+        <item>1 pound carrots (8 to 10 medium carrots), peeled and shredded on a box grater or in a food processor (about 2 3/4 cups)</item>
+        <item>2 cups pecans (1 cup finely chopped for batter, 1 cup coarsely chopped for decorating sides of cake)</item>
+        <item>Ingredients Frosting:</item>
+        <item>16 ounces cream cheese, room temperature</item>
+        <item>2 teaspoons pure vanilla extract</item>
+        <item>2 sticks (16 tablespoons) unsalted butter, cut into small pieces and brought to room temperature</item>
+        <item>2 pounds confectioners sugar, sifted</item>
+    </string-array>
+    <string-array name="ITomatoTart">
+        <item>1 Head Garlic</item>
+        <item>Extra Virgin Olive Oil</item>
+        <item>1 pound, about 4-5, Similar Size Medium Tomatoes</item>
+        <item>1 sheet Puff Pastry, Chilled</item>
+        <item>1 tsp Fresh Thyme Leaves, Chopped Finely</item>
+        <item>Kosher Salt and Fresh Ground Black Pepper to Taste</item>
+    </string-array>
+    <string-array name="IChickenPie">
+        <item>2 1/2 lbs chicken or 4 cups cooked chicken or turkey, shredded into bite sized pieces</item>
+        <item>Salt and Pepper</item>
+        <item>1 stick Butter</item>
+        <item>1 Celery Rib, chopped fine</item>
+        <item>2 Cloves Garlic Minced</item>
+        <item>1/3 cup Flour</item>
+        <item>12 oz can Evaporated Milk</item>
+        <item>2 cup Low Sodium Chicken Broth</item>
+        <item>1 tsp Grated Lemon Zest</item>
+        <item>3 Scallions Chopped</item>
+        <item>2 Unbaked Pie Crusts, your favorite recipe</item>
+        <item>3/4 cup Shredded Sharp Cheddar Cheese</item>
+        <item>1 Large Egg, beaten, for brushing</item>
+    </string-array>
+    <string-array name="ICoconutPie">
+        <item>For the Pastry:</item>
+        <item>1 cup Very Cold Butter, cut into small cubes</item>
+        <item>2 1/2 cups Flour</item>
+        <item>1/2 tsp Salt</item>
+        <item>1/4 to 1/3 cup Ice Water</item>
+        <item>For the Coconut Cream Filling:</item>
+        <item>3 cups Whole Milk</item>
+        <item>1/3 cup Flour</item>
+        <item>2/3 cup Sugar</item>
+        <item>Pinch of Salt</item>
+        <item>1 cup Unsweetened Fine Coconut</item>
+        <item>3 slightly beaten Extra Large Egg Yolks</item>
+        <item>4 tbsp Butter</item>
+        <item>2 tsp Vanilla Extract</item>
+        <item>1/4 tsp Pure Almond Extract</item>
+        <item>For the Vanilla Whipped Cream:</item>
+        <item>1 cup Whipping Cream</item>
+        <item>1 tsp Vanilla Extract</item>
+        <item>3 tbsp Icing Sugar</item>
+    </string-array>
+    <string-array name="IEggs">
+        <item>500 grams Plain Flour</item>
+        <item>1 tsp Bicarb of Soda</item>
+        <item>2 tsp Cream of Tartar</item>
+        <item>1 tsp Sea Salt</item>
+        <item>120 grams Butter, chilled and cubed</item>
+        <item>20 grams Caster Sugar</item>
+        <item>1 Egg beaten with 280 ml Milk</item>
+        <item>1 Egg Yolk and 1 tbsp Milk for Egg Wash</item>
+        <item>12 Quail’s Eggs</item>
+        <item>4 slices Pancetta, thinly sliced</item>
+        <item>Heinz Salad Cream</item>
+        <item>Dash Tabasco Sauce or Similar Hot Sauce</item>
+    </string-array>
+    <string-array name="ICheese">
+        <item>1- 2 Rectangular Filo Sheets</item>
+        <item>Leaves from 8 Sprigs of Fresh Thyme</item>
+        <item>60 grams Butter, melted</item>
+        <item>125 grams Soft Goat’s Cheese</item>
+        <item>4 tsp Honey (lavender if possible)</item>
+    </string-array>
+</resources>

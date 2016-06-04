@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.ucsb.cs185.carlygracelarsson.cookey">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/title_activity_main_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewPhotos"
+            android:label="@string/view_photos_activity"
+            android:parentActivityName=".MainMenu" />
+        <activity
+            android:name=".CompletedRecipes"
+            android:label="@string/completed_recipes_activity"
+            android:parentActivityName=".MainMenu" />
+        <activity
+            android:name=".RecipePhotos"
+            android:label="@string/saved_recipes_activity"
+            android:parentActivityName=".ViewPhotos" />
+        <activity
+            android:name=".SavedRecipes"
+            android:label="@string/saved_recipes_activity"
+            android:parentActivityName=".MainMenu" />
+        <activity
+            android:name=".SettingsPage"
+            android:label="@string/action_settings"
+            android:parentActivityName=".MainMenu" />
+        <activity android:name=".ScrollingActivity" />
+        <activity android:name=".CongratsPage"></activity>
+    </application>
+
+</manifest>
