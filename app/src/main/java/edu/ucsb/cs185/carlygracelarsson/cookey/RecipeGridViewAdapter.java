@@ -1,6 +1,7 @@
 package edu.ucsb.cs185.carlygracelarsson.cookey;
 
 import android.app.Activity;
+import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -23,13 +24,16 @@ public class RecipeGridViewAdapter extends ArrayAdapter<Item> {
         Context context;
         int layoutResourceId;
         ArrayList<Item> data = new ArrayList<Item>();
+    FragmentManager fragmentManager;
 
-        public RecipeGridViewAdapter(Context context, int layoutResourceId,
-        ArrayList<Item> data) {
+
+    public RecipeGridViewAdapter(Context context, int layoutResourceId,
+                                 ArrayList<Item> data, FragmentManager fm) {
         super(context, layoutResourceId, data);
         this.layoutResourceId = layoutResourceId;
         this.context = context;
         this.data = data;
+        fragmentManager = fm;
     }
 
         @Override
@@ -83,8 +87,9 @@ public class RecipeGridViewAdapter extends ArrayAdapter<Item> {
             holder.imageItem.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(getContext(), ScrollingActivity.class);
-                    getContext().startActivity(intent);
+                    RecipeFragment recipeFragment = RecipeFragment.newInstance(item);
+                    recipeFragment.show(fragmentManager, "Recipe");
+
                 }
             });
 

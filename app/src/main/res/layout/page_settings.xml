@@ -16,7 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="The cool chef"
+        android:text="Search Settings here"
         android:textSize="40dp"
         android:textColor="@color/colorOrange"
         android:id="@+id/textView4"

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="300dp"
+    android:layout_height="450dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="30dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:id="@+id/recipe_title"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorBeginner"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:id="@+id/recipe_image"
+        android:layout_below="@+id/recipe_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="45dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/time_textview"
+        android:background="@color/colorAccent"
+        android:layout_below="@+id/recipe_title"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:text="minutes"
+        android:textSize="20dp"
+        android:background="@color/colorWhite"
+        android:layout_below="@+id/time_textview"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ScrollView
+        android:id="@+id/SCROLLER_ID"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/recipe_image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:background="@color/colorWhite"
+            android:paddingTop="20dp"
+            android:id="@+id/recipe_description" />
+
+    </ScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Recipe"
+        android:id="@+id/buttonStart"
+        android:textColor="@color/colorWhite"
+        android:layout_below="@+id/SCROLLER_ID"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorYellow"
+        android:clickable="true"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save For Later"
+        android:id="@+id/buttonSave"
+        android:layout_below="@+id/buttonStart"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorAccent"
+        android:clickable="true"/>
+
+</RelativeLayout>

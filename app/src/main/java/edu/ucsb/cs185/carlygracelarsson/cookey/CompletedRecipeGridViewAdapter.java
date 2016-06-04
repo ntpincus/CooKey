@@ -6,6 +6,7 @@ package edu.ucsb.cs185.carlygracelarsson.cookey;
  * thanks to http://www.androidhub4you.com/2013/07/custom-grid-view-example-in-android.html
  */
 import android.app.Activity;
+import android.app.FragmentManager;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -26,13 +27,16 @@ public class CompletedRecipeGridViewAdapter extends ArrayAdapter<Item> {
     Context context;
     int layoutResourceId;
     ArrayList<Item> data = new ArrayList<Item>();
+    FragmentManager fragmentManager;
+
 
     public CompletedRecipeGridViewAdapter(Context context, int layoutResourceId,
-                                          ArrayList<Item> data) {
+                                 ArrayList<Item> data, FragmentManager fm) {
         super(context, layoutResourceId, data);
         this.layoutResourceId = layoutResourceId;
         this.context = context;
         this.data = data;
+        fragmentManager = fm;
     }
 
     @Override
@@ -86,7 +90,9 @@ public class CompletedRecipeGridViewAdapter extends ArrayAdapter<Item> {
         holder.imageItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, item.getTitle() + " description", Toast.LENGTH_SHORT).show();
+                RecipeFragment recipeFragment = RecipeFragment.newInstance(item);
+                recipeFragment.show(fragmentManager, "Recipe");
+
             }
         });
 

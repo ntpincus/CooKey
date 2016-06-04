@@ -9,4 +9,15 @@
     <string name="saved_recipes_activity">Saved Recipes</string>
     <string name="completed_recipes_activity">Completed Recipes</string>
     <string name="view_photos_activity">Recipe Photos</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="des_chick">Yummy, warm chicken pot pie.</string>
+    <string name="des_cookies">Chocolate Chip Cookes. aka the only recipe you\'ll ever need.</string>
+    <string name="des_carrot">Delicious, and healthy! (or maybe just delicious... :P)</string>
+    <string name="des_potato">Basically giant french fries.</string>
+    <string name="des_spring">It\'s food, and it\'s a work of art!</string>
+    <string name="des_eggs">Breakfast worth getting out of bed for.</string>
+    <string name="des_tomato">For those of you who actually like to eat vegetables.</string>
+    <string name="des_coconut">A must-have for any tropical themed birthday party.</string>
+    <string name="des_cheese">Fancy shmancy food.</string>
 </resources>
